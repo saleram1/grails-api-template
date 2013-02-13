@@ -7,9 +7,9 @@ class User {
       String email
 
       static constraints = {
-      	     firstName()
+      	     firstName(nullable: false, blank: false)
 	     middleInitial(nullable: true, blank: false)
-	     lastName()
-	     email(email: true, blank: false) 	   
+	     lastName(nullable: false, blank: false)
+	     email(nullable: false, blank: false)
       }
 }
