@@ -39,4 +39,11 @@
             <column name="middle_initial" type="varchar(255)"/>
         </createTable>
     </changeSet>
+   <changeSet author="saleram (generated)" id="1360731127464-1">
+        <addColumn tableName="user">
+            <column name="date_of_birth" type="datetime">
+                <constraints nullable="false"/>
+            </column>
+        </addColumn>
+    </changeSet>
 </databaseChangeLog>
