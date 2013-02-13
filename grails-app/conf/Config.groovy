@@ -94,3 +94,4 @@ grails.plugin.databasemigration.changelogFileName = 'changelog.xml'
 
 grails.plugin.reveng.packageName= "com.freerangeconsultants.apps.core"
 grails.plugin.reveng.excludeTables = ['databasechangelog', 'databasechangeloglock']
+
