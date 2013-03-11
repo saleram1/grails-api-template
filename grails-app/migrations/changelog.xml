@@ -46,4 +46,14 @@
             </column>
         </addColumn>
     </changeSet>
+
+	<!-- for next release -->
+	<changeSet author="michael (generated)" id="1362688392326-1">
+	        <addColumn tableName="user">
+	            <column name="title" type="varchar(255)">
+	                <constraints nullable="false"/>
+	            </column>
+	        </addColumn>
+	</changeSet>
+	
 </databaseChangeLog>

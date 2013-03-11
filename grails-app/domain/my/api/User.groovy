@@ -6,6 +6,7 @@ class User {
       String lastName
       String email
 	  Date dateOfBirth
+	  String title
 
       static constraints = {
       	     firstName(nullable: false, blank: false)
@@ -13,5 +14,6 @@ class User {
 	     lastName(nullable: false, blank: false)
 	     email(nullable: false, blank: false)
 		 dateOfBirth(nullable: false)
+		 title()
       }
 }
